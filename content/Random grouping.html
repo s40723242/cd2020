@@ -154,12 +154,28 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content">week5-8 << <a href='week5-8.html'>Previous</a> <a href='week13-16.html'>Next</a> >> week13-16<br /><h1>week9-12</h1>
-<p><strong><span style="color: #0000ff;">week9:</span></strong></p>
-<p><strong><span style="color: #0000ff;">week10:</span></strong></p>
-<p><strong><span style="color: #0000ff;">week11:</span></strong></p>
-<p><strong><span style="color: #0000ff;">week12:</span></strong></p>
-<br />week5-8 << <a href='week5-8.html'>Previous</a> <a href='week13-16.html'>Next</a> >> week13-16</div>
+    <div id="tipue_search_content">Assignment1 << <a href='Assignment1.html'>Previous</a> <a href='Portable system.html'>Next</a> >> Portable system<br /><h1>Random grouping</h1>
+<p><span style="color: #00ffff;">資料編輯者:40723242</span></p>
+<p>1.Describe how to do an efficient random grouping for this course or do the roll calling randomly?</p>
+<p><strong>亂數分組</strong></p>
+<p>程序</p>
+<p>1.讀取學員資料並將各學員學號轉入數列</p>
+<p>2.利用亂數模組中的<span> shuffle </span>函式<span>, </span>隨機弄亂學員學號數列</p>
+<p>3.利用重複迴圈<span>, </span>將學員學號數列中一一取出<span>, </span>準備進行分組</p>
+<p>4.在迴圈中利用整數相除後取得餘數的規律<span>, </span>依照每組幾人的規劃進行分組</p>
+<p>5.在分組過程<span>, </span>再設法利用數列<span>append, </span>將各組學員學號納為分組數列</p>
+<p>6.最後將各組數列再放入選課班級數列中存取備用</p>
+<p>我們需要了解<span>-splitlines</span>、<span>random</span>、<span>random.shuffle</span>的用法<span>.</span></p>
+<p>Python splitlines(): 按照行<span>('\r', '\r\n', \n')</span>分隔，返回一个包含各行作為元素的列表，如果參數<span> keepends </span>為<span> False</span>，不包含換行符，如果為<span> True</span>，則保留換行符號。</p>
+<p>Random: random方法返回隨機生成的一個實數，它在<span>[0,1]</span>範圍内。</p>
+<p>Random.shuffle: shuffle方法將序列的所有元素隨機排序。</p>
+<p><strong>總結</strong>:亂數分組需從<span>index.html</span>或是主程式抓取網址並透過<span>request</span>去擷取相關參數並透過<span>Random.shuffle</span>去打亂，在利用數列的<span>append</span>進行編排，才能完成每周抽點的抽點編排。</p>
+<p>參考資訊<span>:</span></p>
+<p><a href="https://www.runoob.com/python/att-string-splitlines.html">https://www.runoob.com/python/att-string-splitlines.html</a></p>
+<p><a href="https://www.runoob.com/python/func-number-random.html">https://www.runoob.com/python/func-number-random.html</a></p>
+<p><a href="https://www.runoob.com/python/func-number-shuffle.html">https://www.runoob.com/python/func-number-shuffle.html</a></p>
+<p><span><a href="https://2019wcm.blogspot.com/2019/02/blog-post_18.html">https://2019wcm.blogspot.com/2019/02/blog-post_18.html</a></span></p>
+<br />Assignment1 << <a href='Assignment1.html'>Previous</a> <a href='Portable system.html'>Next</a> >> Portable system</div>
         
     <!-- footer -->
       <div class="container">

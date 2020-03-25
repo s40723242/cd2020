@@ -154,12 +154,81 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content">week5-8 << <a href='week5-8.html'>Previous</a> <a href='week13-16.html'>Next</a> >> week13-16<br /><h1>week9-12</h1>
-<p><strong><span style="color: #0000ff;">week9:</span></strong></p>
-<p><strong><span style="color: #0000ff;">week10:</span></strong></p>
-<p><strong><span style="color: #0000ff;">week11:</span></strong></p>
-<p><strong><span style="color: #0000ff;">week12:</span></strong></p>
-<br />week5-8 << <a href='week5-8.html'>Previous</a> <a href='week13-16.html'>Next</a> >> week13-16</div>
+    <div id="tipue_search_content">Random grouping << <a href='Random grouping.html'>Previous</a> <a href='four wheel car.html'>Next</a> >> four wheel car<br /><h1>Portable system</h1>
+<p><span style="color: #00ffff;">資料編輯者:40723242</span></p>
+<p><strong>2</strong>.Describe how to prepare a portable Python programming system for Windows 10 64bit system to allow one the maintain CMSiMDE website, Pelican blog and Reveal.js presentation on Github?</p>
+<p><strong>可攜系統</strong></p>
+<p><strong>重新建立<span>Python3.8.2 –<a href="https://www.youtube.com/watch?v=jvAQFZY2KrE"><span>教學影片</span></a></span></strong></p>
+<p><strong><span color="#000000" style="color: #000000;"><span style="color: #00ffff;"><span style="color: #000000;">重新建立Python3.8.2:</span></span></span></strong></p>
+<p><span color="#000000" style="color: #000000;"><span style="color: #00ffff;"><span style="color: #000000;"><span><span>1.新建一個新的資料夾為cd20，在cd20底下新增data，在data<span>底下</span><span>新增py382</span></span></span></span></span></span></p>
+<p><span color="#000000" style="color: #000000;"><span style="color: #00ffff;"><span style="color: #000000;"><span><span>2</span></span></span></span></span><span color="#000000" style="color: #000000;"><span style="color: #00ffff;"><span style="color: #000000;"><span><span>.下載<a href="https://www.python.org/ftp/python/3.8.2/python-3.8.2-amd64.exe">Windows x86-64 executable installer</a> ，下載至C:\cd20\DATA\py382</span></span></span></span></span></p>
+<p><span color="#000000" style="color: #000000;"><span style="color: #00ffff;"><span style="color: #000000;"><span><span>3.下載SciTE系統 "<span><a href="https://www.scintilla.org/wscite432.zip">full 64-bit download</a>"，下載完後解壓縮完後放置在data底下並稱為wscite</span></span></span></span></span></span></p>
+<p><span color="#000000" style="color: #000000;"><span style="color: #00ffff;"><span style="color: #000000;"><span><span><span>4.編輯SciTE，<span>到 </span><span>Options</span><span>→</span><span>Open Global Option File<span> ，至139行及300行將前方#拿掉並補上301行的#</span></span></span></span></span></span></span></span></p>
+<p><span color="#000000" style="color: #000000;"><span style="color: #00ffff;"><span style="color: #000000;"><span><span><span><span><span>5.建立新的start.bat及stop.bat</span></span></span></span></span></span></span></span></p>
+<p><strong>start.bat:</strong></p>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">@echo off
+set Disk=y
+subst %Disk%: "data"
+ 
+%Disk%:
+ 
+set HomePath=%Disk%:\home
+set HomeDrive=%Disk%:\home
+set Home=%Disk%:\home
+set USERPROFILE=%Disk%:\home
+ 
+REM 將系統 Python 程式的 io 設為 utf-8
+set PYTHONIOENCODING="utf-8"
+ 
+#REM for putty
+#Set GIT_HOME=%CDisk%:\portablegit\bin\
+#Set GIT_SSH=%Disk%:\putty\plink.exe
+ 
+set PYTHONPATH=%Disk%:\py382\DLLs;%Disk%:\py382\Lib;%Disk%:\py382\Lib\site-packages;
+set PYTHONHOME=%Disk%:\py382
+ 
+set path_python=%Disk%:\py382;%Disk%:\py382\Scripts;
+set path_msys2=%Disk%:\msys64\mingw64\bin;
+set path_git=%Disk%:\portablegit\bin;
+set path_tcc=%Disk%:\tcc;
+ 
+path=%Disk%:;%path_python%;%path_msys2%;%path_git%;%path_tcc%;
+ 
+start /MIN cmd.exe
+start /MIN cmd.exe
+start /MIN cmd.exe
+start /MIN cmd.exe
+ 
+start /MIN %Disk%:\wscite432\wscite\SciTE.exe
+start /MIN %Disk%:\wscite432\wscite\SciTE.exe
+ 
+Exit</pre>
+<p><strong><span color="#000000" style="color: #000000;"><span style="color: #00ffff;"><span style="color: #000000;">stop.bat:</span></span></span></strong></p>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">@echo off
+set Disk=y
+path=%PATH%;
+ 
+taskkill /IM python.exe /F
+taskkill /IM pythonw.exe /F
+taskkill /IM scite.exe /F
+ 
+REM 終止虛擬硬碟與目錄的對應
+subst %Disk%: /D
+REM 關閉 cmd 指令視窗
+taskkill /IM cmd.exe /F
+ 
+EXIT</pre>
+<p><span color="#000000"><span>6.下載MSYS2"<a class="button" href="http://repo.msys2.org/distrib/x86_64/msys2-x86_64-20190524.exe">msys2-x86_64-20190524.exe</a>"，Browse→選擇至CD2020\data\<br/></span></span></p>
+<p><span color="#000000"><span>7.在data下先新增portablegit資料夾，下載PortableGit"<strong><a href="https://github.com/git-for-windows/git/releases/download/v2.25.1.windows.1/PortableGit-2.25.1-64-bit.7z.exe">64-bit Git for Windows Portable</a>."</strong>，Browse→選擇至CD2020\data\portablegit</span></span></p>
+<p><span color="#000000"><span>8.安裝pip至</span></span><a href="https://bootstrap.pypa.io/get-pip.py">https://bootstrap.pypa.io/get-pip.py</a>頁面，另存新檔到CD2020/data儲存</p>
+<p>9.執行指令</p>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">python get-pip.py</pre>
+<div></div>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">pip install flask bs4 lxml pelican markdown flask_cors leo</pre>
+<p><span color="#000000" style="color: #000000;"><span style="color: #00ffff;"><span style="color: #000000;"><span><span>10.再從新設定使用者及putty即可</span></span></span></span></span></p>
+<p></p>
+<p><strong>參考資料<span>:</span></strong> <a href="https://2019wcm.blogspot.com/2019/03/">https://2019wcm.blogspot.com/2019/03/</a></p>
+<br />Random grouping << <a href='Random grouping.html'>Previous</a> <a href='four wheel car.html'>Next</a> >> four wheel car</div>
         
     <!-- footer -->
       <div class="container">
