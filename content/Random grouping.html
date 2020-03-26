@@ -165,16 +165,20 @@ img.add_border {
 <p>4.在迴圈中利用整數相除後取得餘數的規律<span>, </span>依照每組幾人的規劃進行分組</p>
 <p>5.在分組過程<span>, </span>再設法利用數列<span>append, </span>將各組學員學號納為分組數列</p>
 <p>6.最後將各組數列再放入選課班級數列中存取備用</p>
-<p>我們需要了解<span>-splitlines</span>、<span>random</span>、<span>random.shuffle</span>的用法<span>.</span></p>
-<p>Python splitlines(): 按照行<span>('\r', '\r\n', \n')</span>分隔，返回一个包含各行作為元素的列表，如果參數<span> keepends </span>為<span> False</span>，不包含換行符，如果為<span> True</span>，則保留換行符號。</p>
-<p>Random: random方法返回隨機生成的一個實數，它在<span>[0,1]</span>範圍内。</p>
+<p>~在這之前我們必須了解以下模組<span>~</span></p>
+<p>for迴圈: 在處理資料的時候，時常會需要重複執行某些相同的步驟；而迴圈(loop) 的作用是讓指定的某段敘述在條件符合的情況下一直重覆執行。</p>
 <p>Random.shuffle: shuffle方法將序列的所有元素隨機排序。</p>
+<p>Request:此模組是為了下載網頁上的資料，並以request模組建立適當的HTTP 請求，透過HTTP 請求從網頁伺服器下載指定的資料，分為兩種模式Post、Get。</p>
+<p>url: 取得請求網址。</p>
+<p>status_code:伺服器回應的狀態碼。</p>
+<p>text:取得網頁<span> HTML </span>原始碼。</p>
 <p><strong>總結</strong>:亂數分組需從<span>index.html</span>或是主程式抓取網址並透過<span>request</span>去擷取相關參數並透過<span>Random.shuffle</span>去打亂，在利用數列的<span>append</span>進行編排，才能完成每周抽點的抽點編排。</p>
 <p>參考資訊<span>:</span></p>
+<p><a href="https://ithelp.ithome.com.tw/articles/10206215">https://ithelp.ithome.com.tw/articles/10206215</a></p>
 <p><a href="https://www.runoob.com/python/att-string-splitlines.html">https://www.runoob.com/python/att-string-splitlines.html</a></p>
 <p><a href="https://www.runoob.com/python/func-number-random.html">https://www.runoob.com/python/func-number-random.html</a></p>
 <p><a href="https://www.runoob.com/python/func-number-shuffle.html">https://www.runoob.com/python/func-number-shuffle.html</a></p>
-<p><span><a href="https://2019wcm.blogspot.com/2019/02/blog-post_18.html">https://2019wcm.blogspot.com/2019/02/blog-post_18.html</a></span></p>
+<p><a href="https://2019wcm.blogspot.com/2019/02/blog-post_18.html">https://2019wcm.blogspot.com/2019/02/blog-post_18.html</a></p>
 <br />Assignment1 << <a href='Assignment1.html'>Previous</a> <a href='Portable system.html'>Next</a> >> Portable system</div>
         
     <!-- footer -->
