@@ -165,7 +165,43 @@ img.add_border {
 <li>完成上述各步驟後, 將繼續進行線上課程之其他內容直播或錄影.</li>
 </ol>
 <p><strong><span style="color: #0000ff;">week10:</span></strong></p>
+<p><strong>gm用戶登入設置</strong></p>
+<p><strong>影片:</strong></p>
+<p><strong></strong></p>
+<p><strong>步驟:</strong></p>
+<p><strong></strong></p>
 <p><strong><span style="color: #0000ff;">week11:</span></strong></p>
+<p><strong>Ubuntu設定及API連線</strong></p>
+<p><strong>影片:</strong></p>
+<p><strong></strong></p>
+<p><strong>步驟:</strong></p>
+<p><strong></strong></p>
+<hr/>
+<p><strong>以ssh對Github連線</strong></p>
+<p><strong>影片:</strong></p>
+<p><strong><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/Fsnl69z5aaQ" width="560"></iframe></strong></p>
+<p><strong>步驟:</strong></p>
+<p>1.將E:\201906_fall\data\portablegit\bin中的sh_for_solvespace_compile複製並更名為sh.exe</p>
+<p>2.進入黑窗輸入<span>ssh-keygen -t rsa -b 4096 -C "使用者學號"</span></p>
+<p>3.下載putty並透過putty.chm新增兩枚鑰使</p>
+<p>4.修改<span>start.bat:</span></p>
+<pre><span><code>set GIT_HOME=%Disk%:\portablegit\bin\
+set GIT_SSH=%Disk%:\putty\plink.exe</code></span></pre>
+<p>5.修改自身<span>倉儲 .git 中的 config 檔案中的 url 設定</span></p>
+<pre><span><code>url = <a href="mailto:git@github.com:mdecourse/cad2019.git">git@github.com:mdecourse/cad2019.git</a><br/></code></span></pre>
+<p>6.設定putty</p>
+<p>7.在Y:\home_mdecourse\.ssh中新增config並加入指令</p>
+<pre><span><code>ProxyCommand y:/putty/plink.exe github.com %h %p
+ 
+Host github.com
+    User git
+    Port 22
+    Hostname github.com
+ 
+    TCPKeepAlive yes
+    IdentitiesOnly yes</code></span></pre>
+<p>8.在githun ssh設定中新增鑰使</p>
+<p>9.完成</p>
 <p><strong><span style="color: #0000ff;">week12:</span></strong></p>
 <br />week5-8 << <a href='week5-8.html'>Previous</a> <a href='week13-16.html'>Next</a> >> week13-16</div>
         
