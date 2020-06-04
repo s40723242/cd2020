@@ -220,6 +220,25 @@ Host github.com
 <p><span style="color: #808080;"><strong>IPv4 Ubuntu對外連線設定操作:</strong></span></p>
 <p><strong>影片:</strong></p>
 <p><strong>步驟:</strong></p>
+<p>操作步驟:</p>
+<ol>
+<li>喜好設定-&gt;網路-&gt;新增一個新的NAT網路</li>
+<li>編輯NAT網路，新增4個連接埠轉送埠號</li>
+<li>設定主機IP為0.0.1，主機連接埠號為 22、19999、17443、18443，客體IP為10.0.2.4，客體連接埠號為22、19999、17443、18443</li>
+<li>點選設定&gt;網路&gt;設定為NAT Network</li>
+<li>點選啟動，接著輸入密碼kmol2020</li>
+<li>開啟LXTermial，輸入ifconfig&gt; sudo apt install net-tools&gt;密碼kmol2020</li>
+<li>cd tmp&gt;ls&gt;ping 127.0.0.1測試&gt;cd cd2020pj1&gt;git pull</li>
+<li>sudo vi wsgi.py編輯內容，將Host改成0.2.4</li>
+<li>開啟leo，開啟cd cd2020pj1點NAV尋找allowExt</li>
+<li>點選fileuploadfrom，在第10行新增一個ttt檔，存儲</li>
+<li>cd..，在tmp下新增oauth_scrum.txt並輸入sudo vi oauth_scrum.txt，儲存</li>
+<li>cd cd2020pj1&gt;python3 wsgi.py</li>
+<li>網址為https:/127.0.0.1:18443/alogin</li>
+<li>帳號及密碼都為admin，進入後點選fileuploadform，點選要上傳的ttt</li>
+<li>15.選download list檢查是否上傳完成</li>
+</ol>
+<p><strong> <br/> </strong></p>
 <br />week5-8 << <a href='week5-8.html'>Previous</a> <a href='week13-16.html'>Next</a> >> week13-16</div>
         
     <!-- footer -->
