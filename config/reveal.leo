@@ -24,19 +24,19 @@
 <v t="leo.20180902120523.11"><vh>w1~w4</vh>
 <v t="leo.20200620215821.1"><vh>w1~w4</vh></v>
 </v>
-<v t="leo.20180902120523.13"><vh>w6~w8</vh>
-<v t="leo.20200620223203.1"><vh>w6~w8</vh></v>
-<v t="leo.20200620223200.1"><vh>w7</vh></v>
+<v t="leo.20200621092657.1"><vh>w6~w8</vh>
+<v t="leo.20200621092740.1"><vh>w6~w8</vh></v>
+<v t="leo.20200621092657.2"><vh>w7</vh></v>
 </v>
-<v t="leo.20200620224917.1"><vh>w9~w13</vh>
-<v t="leo.20200620224917.2"><vh>w9~13</vh></v>
-<v t="leo.20200620224917.3"><vh>w10</vh></v>
-<v t="leo.20200620225301.1"><vh>w11</vh></v>
+<v t="leo.20200621092651.1"><vh>w9~w13</vh>
+<v t="leo.20200621092850.1"><vh>w9~w13</vh></v>
+<v t="leo.20200621092651.2"><vh>w10</vh></v>
+<v t="leo.20200621092923.1"><vh>w11</vh></v>
 </v>
-<v t="leo.20200620215948.1"><vh>w14~w16</vh>
-<v t="leo.20200620225549.1"><vh>w10</vh></v>
-<v t="leo.20200620225546.1"><vh>w10</vh></v>
-<v t="leo.20200620225344.1"><vh>14~16</vh></v>
+<v t="leo.20200621092645.1"><vh>w14~w16</vh>
+<v t="leo.20200621093021.1"><vh>w14~16</vh></v>
+<v t="leo.20200621093018.1"><vh>w13</vh></v>
+<v t="leo.20200621092645.2"><vh>w15</vh></v>
 </v>
 </v>
 </v>
@@ -68,11 +68,6 @@ Created by [40723242](https://s40723242.github.io/cd2020/content/index.html)
 
 
 						
-</t>
-<t tx="leo.20180902120523.13">&lt;section&gt;
-@others
-&lt;/section&gt;
-
 </t>
 <t tx="leo.20180902120523.2"></t>
 <t tx="leo.20180902120523.3">@language xml
@@ -254,19 +249,47 @@ vertical: body pane on the botton</t>
 
 
 </t>
-<t tx="leo.20200620215948.1">&lt;section&gt;
+<t tx="leo.20200621092645.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
 @others
+    &lt;/script&gt;
 &lt;/section&gt;
 
+
+						
 </t>
-<t tx="leo.20200620223200.1"># w7
+<t tx="leo.20200621092645.2"># w15
+
+* 影片</t>
+<t tx="leo.20200621092651.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200621092651.2"># w10
+
+* 影片</t>
+<t tx="leo.20200621092657.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200621092657.2"># w7
 
 * 影片
 
 
 
 </t>
-<t tx="leo.20200620223203.1"># w6~8
+<t tx="leo.20200621092740.1"># w6~8
 
 * 進行Assignment2
 * 四輪車外型設置並以鍵盤控制方向
@@ -275,12 +298,7 @@ vertical: body pane on the botton</t>
 
 
 </t>
-<t tx="leo.20200620224917.1">&lt;section&gt;
-@others
-&lt;/section&gt;
-
-</t>
-<t tx="leo.20200620224917.2"># w9~13
+<t tx="leo.20200621092850.1"># w9~13
 
 * 期中考
 * gm用戶登入設置
@@ -292,28 +310,22 @@ vertical: body pane on the botton</t>
 
 
 </t>
-<t tx="leo.20200620224917.3"># w10
+<t tx="leo.20200621092923.1"># w11
 
 * 影片</t>
-<t tx="leo.20200620225301.1"># w11
+<t tx="leo.20200621093018.1"># w13
 
-* 影片</t>
-<t tx="leo.20200620225344.1"># w14~16
+* 影片
+</t>
+<t tx="leo.20200621093021.1"># w1~w4
 
-* Mine Project
-* FileZilla 虛擬主機文件共享設定
-* Ubuntu進行IPV6遠端操控
-
-
+* 建立網站
+* 將隨身系統從py3.7.3升為py3.8.2
+* 協同分組
+* 進行Assignment1作業
 
 
 
 </t>
-<t tx="leo.20200620225546.1"># w10
-
-* 影片</t>
-<t tx="leo.20200620225549.1"># w10
-
-* 影片</t>
 </tnodes>
 </leo_file>
