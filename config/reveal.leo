@@ -48,6 +48,9 @@
 <v t="leo.20200621095551.1"><vh>w15</vh>
 <v t="leo.20200621095551.4"><vh>w15</vh></v>
 </v>
+<v t="leo.20200621101920.1"><vh>F</vh>
+<v t="leo.20200621101920.2"><vh>w15</vh></v>
+</v>
 </v>
 </v>
 </v>
@@ -360,7 +363,7 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20200621095134.3"># w10
 
-* gm用戶登入設置
+** gm用戶登入設置
 
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/N7xh3RKMbOI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20200621095549.1">&lt;section data-markdown&gt;
@@ -389,8 +392,20 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20200621095551.4"># w15
 
-* IPv6 遠端控制
+** IPv6 遠端控制
 
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/QVzrxC_jx4w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200621101920.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200621101920.2">
+
+* END</t>
 </tnodes>
 </leo_file>
