@@ -26,17 +26,27 @@
 </v>
 <v t="leo.20200621092657.1"><vh>w6~w8</vh>
 <v t="leo.20200621092740.1"><vh>w6~w8</vh></v>
-<v t="leo.20200621092657.2"><vh>w7</vh></v>
+</v>
+<v t="leo.20200621095100.1"><vh>w7</vh>
+<v t="leo.20200621095100.3"><vh>w7</vh></v>
 </v>
 <v t="leo.20200621092651.1"><vh>w9~w13</vh>
 <v t="leo.20200621092850.1"><vh>w9~w13</vh></v>
-<v t="leo.20200621092651.2"><vh>w10</vh></v>
-<v t="leo.20200621092923.1"><vh>w11</vh></v>
+</v>
+<v t="leo.20200621095134.1"><vh>w10</vh>
+<v t="leo.20200621095134.3"><vh>w10</vh></v>
+</v>
+<v t="leo.20200621095133.1"><vh>w11</vh>
+<v t="leo.20200621095133.4"><vh>w11</vh></v>
 </v>
 <v t="leo.20200621092645.1"><vh>w14~w16</vh>
 <v t="leo.20200621093021.1"><vh>w14~16</vh></v>
-<v t="leo.20200621093018.1"><vh>w13</vh></v>
-<v t="leo.20200621092645.2"><vh>w15</vh></v>
+</v>
+<v t="leo.20200621095549.1"><vh>w13</vh>
+<v t="leo.20200621095549.3"><vh>w13</vh></v>
+</v>
+<v t="leo.20200621095551.1"><vh>w15</vh>
+<v t="leo.20200621095551.4"><vh>w15</vh></v>
 </v>
 </v>
 </v>
@@ -258,9 +268,6 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20200621092645.2"># w15
-
-* 影片</t>
 <t tx="leo.20200621092651.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -270,9 +277,6 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20200621092651.2"># w10
-
-* 影片</t>
 <t tx="leo.20200621092657.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -281,13 +285,6 @@ vertical: body pane on the botton</t>
 
 
 						
-</t>
-<t tx="leo.20200621092657.2"># w7
-
-* 影片
-
-
-
 </t>
 <t tx="leo.20200621092740.1"># w6~8
 
@@ -310,22 +307,90 @@ vertical: body pane on the botton</t>
 
 
 </t>
-<t tx="leo.20200621092923.1"># w11
+<t tx="leo.20200621093021.1"># w14~16
 
-* 影片</t>
-<t tx="leo.20200621093018.1"># w13
-
-* 影片
-</t>
-<t tx="leo.20200621093021.1"># w1~w4
-
-* 建立網站
-* 將隨身系統從py3.7.3升為py3.8.2
-* 協同分組
-* 進行Assignment1作業
+* Mine Project
+* FileZilla 虛擬主機文件共享設定
+* 使用Ubuntu進行IPV6遠端操控
+* 製作期末報告
 
 
 
 </t>
+<t tx="leo.20200621095100.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200621095100.3"># w7
+
+* 四輪車外型設置並以鍵盤控制方向
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/oPxVeDzlLDQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+
+
+</t>
+<t tx="leo.20200621095133.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200621095133.4"># w11
+
+* Ubuntu設定及API連線
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/oXpS04VOqso" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200621095134.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200621095134.3"># w10
+
+* gm用戶登入設置
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/N7xh3RKMbOI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200621095549.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200621095549.3"># w13
+
+* FileZilla 虛擬主機文件共享設定
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/RwPHyCRLU8U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20200621095551.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200621095551.4"># w15
+
+* IPv6 遠端控制
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/QVzrxC_jx4w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 </tnodes>
 </leo_file>
