@@ -48,6 +48,9 @@
 <v t="leo.20200621095551.1"><vh>w15</vh>
 <v t="leo.20200621095551.4"><vh>w15</vh></v>
 </v>
+<v t="leo.20200623195518.1"><vh>F</vh>
+<v t="leo.20200623195518.2"><vh>f</vh></v>
+</v>
 <v t="leo.20200621101920.1"><vh>F</vh>
 <v t="leo.20200621101920.2"><vh>f</vh></v>
 </v>
@@ -252,7 +255,7 @@ QLineEdit#editorLabel {
 }</t>
 <t tx="leo.20180902120538.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
-<t tx="leo.20200620215821.1"># w1~w4
+<t tx="leo.20200620215821.1"># [w1~w4](https://s40723242.github.io/cd2020/content/week1-4.html)
 
 * 建立網站
 * 將隨身系統從py3.7.3升為py3.8.2
@@ -289,7 +292,7 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20200621092740.1"># w6~8
+<t tx="leo.20200621092740.1"># [w6~w8](https://s40723242.github.io/cd2020/content/week5-8.html)
 
 * 進行Assignment2
 * 四輪車外型設置並以鍵盤控制方向
@@ -298,7 +301,7 @@ vertical: body pane on the botton</t>
 
 
 </t>
-<t tx="leo.20200621092850.1"># w9~13
+<t tx="leo.20200621092850.1"># [w9~w13](https://s40723242.github.io/cd2020/content/week9-12.html)
 
 * 期中考
 * gm用戶登入設置
@@ -310,7 +313,7 @@ vertical: body pane on the botton</t>
 
 
 </t>
-<t tx="leo.20200621093021.1"># w14~16
+<t tx="leo.20200621093021.1"># [w14~w16](https://s40723242.github.io/cd2020/content/week13-16.html)
 
 * Mine Project
 * FileZilla 虛擬主機文件共享設定
@@ -407,5 +410,17 @@ vertical: body pane on the botton</t>
 <t tx="leo.20200621101920.2">
 
 ## END</t>
+<t tx="leo.20200623195518.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200623195518.2"># [Final Assignment]()
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/fcPefFEw8UM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 </tnodes>
 </leo_file>
