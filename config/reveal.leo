@@ -419,7 +419,7 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20200623195518.2"># [Final Assignment]()
+<t tx="leo.20200623195518.2"># [Final Assignment](https://s40723242.github.io/cd2020/content/Final%20Assignment.html)
 
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/fcPefFEw8UM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 </tnodes>
