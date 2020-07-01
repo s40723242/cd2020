@@ -354,7 +354,8 @@ vertical: body pane on the botton</t>
 
 * Ubuntu設定及API連線
 
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/oXpS04VOqso" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/oXpS04VOqso" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+</t>
 <t tx="leo.20200621095134.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -368,7 +369,8 @@ vertical: body pane on the botton</t>
 
 * ### gm用戶登入設置
 
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/N7xh3RKMbOI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/N7xh3RKMbOI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+</t>
 <t tx="leo.20200621095549.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -397,7 +399,8 @@ vertical: body pane on the botton</t>
 
 * ## IPv6 遠端控制
 
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/QVzrxC_jx4w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/QVzrxC_jx4w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+</t>
 <t tx="leo.20200621101920.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -409,7 +412,8 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20200621101920.2">
 
-## END</t>
+## END
+</t>
 <t tx="leo.20200623195518.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -421,6 +425,7 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20200623195518.2"># [Final Assignment](https://s40723242.github.io/cd2020/content/Final%20Assignment.html)
 
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/fcPefFEw8UM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/fcPefFEw8UM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+</t>
 </tnodes>
 </leo_file>
