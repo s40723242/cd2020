@@ -412,7 +412,7 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20200621101920.2">
 
-## END
+## Thanks for listening
 </t>
 <t tx="leo.20200623195518.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
